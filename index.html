@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/underscore/underscore-min.js"></script>
+  <script src="node_modules/backbone/backbone.js"></script>
+  <script src="scripts.js"></script>
+
+</head>
+
+<body>
+  <div id="song-form">
+    <div style="display:inline-block;">
+      <label for="song-title" style="color:#777;">Title</label>
+      <input class="song-title" type="text" style="width:100px;" />
+    </div>
+    <div style="display:inline-block;">
+      <label for="song-artist" style="color:#777;">Artist</label>
+      <input class="song-artist" type="text" style="width:100px;" />
+    </div>
+    <div style="display:inline-block;">
+      <label for="song-album" style="color:#777;">Album</label>
+      <input class="song-album" type="text" style="width:100px;" />
+    </div>
+    <button style="display:inline-block;" class="add-song">Save</button>
+  </div>
+  <div id="songs-list"></div>
+</body>
+
+</html>
